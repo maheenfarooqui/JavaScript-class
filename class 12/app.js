@@ -39,18 +39,20 @@
 
 var mutliArr = [["maheen", "zuhra",["smit","yy"]],["hiba", "shoaib",["ubit","nn"]],["hareem", "shiekh",["salani","kk"]]];
 
-for(var i = 0 ; i< mutliArr.length ; i++){
-    for(var j= 0 ;j <mutliArr[i].length ; j++ ){
-        console.log(mutliArr[i][j]);
+// for(var i = 0 ; i< mutliArr.length ; i++){
+//     for(var j= 0 ;j <mutliArr[i].length ; j++ ){
+//         console.log(mutliArr[i][j]);
         
          
-    }
-    for(var k = 0; k < mutliArr[i][j].length; k++){
-        console.log(mutliArr[i][j][k]);
+//     }
+//     for(var k = 0; k < mutliArr[i][j].length; k++){
+//         console.log(mutliArr[i][j][k]);
         
-    }
+//     }
     
-}
+// } 
+console.log(mu);
+
 
 
 

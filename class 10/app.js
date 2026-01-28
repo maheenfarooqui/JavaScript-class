@@ -20,7 +20,7 @@ var stdn = ["hareem","maheen","hiba","maleeha"];
 var userName = prompt("enter your name");
 
 for(var i=0 ; i< stdn.length; i++){
-    if(userName.toLocaleLowerCase() === stdn[i]){
+    if(userName.toLowerCase() === stdn[i]){
         document.write("you are selected")
     }
 }
