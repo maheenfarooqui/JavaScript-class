@@ -1,8 +1,19 @@
+//,,,,,,,,,,,,,,,, sweet alert
+// Swal.fire({
+//   icon: "error",
+//   title: "Oops...",
+//   text: "Something went wrong!",
+//   footer: '<a href="#">Why do I have this issue?</a>'
+// });
+// ,,,,,,,,,,,,,,,,,,,,,,,moment time and date liberary
 // moment.duration(-1, "minutes").humanize(true);
 
 // var today =moment().format("ddd, hA").from;
 
 // console.log(today);
+// var a = moment(new Date("feb 18, 2026"));
+// console.log(a.fromNow());
+
 
 
 // palindrome
