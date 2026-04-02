@@ -34,7 +34,5 @@ document.getElementById("table").innerHTML = ` <tr>
     <td>${student2.days[0]}-${student2.days[1]}-${student2.days[2]}</td>
   </tr>`;
   console.log(student2.enrolled);
-student2 ={
-  enrolled: false,
-}
+student2.enrolled = false;
 console.log(student2.enrolled);
