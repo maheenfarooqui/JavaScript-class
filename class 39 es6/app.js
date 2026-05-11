@@ -63,17 +63,34 @@
 // console.log(average);
 
 
-let products = [
- {name:"Laptop", price:80000},
- {name:"Mouse", price:2000},
- {name:"Keyboard", price:5000},
- {name:"Monitor", price:30000}
+// let products = [
+//  {name:"Laptop", price:80000},
+//  {name:"Mouse", price:2000},
+//  {name:"Keyboard", price:5000},
+//  {name:"Monitor", price:30000}
+// ];
+
+// let pName = products.map(product => product.name)
+// console.log(pName);
+// let exp = products.filter(a=> a.price >5000)
+// console.log(exp);
+
+let students = [
+ {name:"Ali", marks:80},
+ {name:"Sara", marks:90},
+ {name:"Ahmed", marks:70}
 ];
 
-let pName = products.map(product => product.name)
-console.log(pName);
-let exp = products.filter(a=> a.price >5000)
-console.log(exp);
+let userName = students.map(uName => uName.name)
+console.log(userName);
+let maxNum = students.filter(max => max.marks > 80)
+console.log(maxNum);
+let totalM = students.reduce((total,studen)=>{
+    return total + studen.marks
+},0)
+
+console.log(totalM);
+
 
 
 
