@@ -30,6 +30,22 @@
 // }
 // console.log(stdD);
 
+// array methods some and every
+
+let myarr = [1,2,3,4]
+let newArr = myarr.some(
+    function(num) {
+        return num > 2
+
+    }
+)
+let newAr = myarr.every(
+    function(num) {
+        return num > 2
+
+    }
+)
+console.log(newAr,newArr);
 
 
 
