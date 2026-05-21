@@ -26,32 +26,32 @@ let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // )
 // console.log(evenNum);
 
-let userData = [
-  {
-    name: "maheen",
-    id: 1,
-    age: 16,
-  },
-  {
-    name: "hareem",
-    id: 2,
-    age: 22,
-  },
-  {
-    name: "hiba",
-    id: 3,
-    age: 10,
-  },
-  {
-    name: "hina",
-    id: 4,
-    age: 23,
-  },
-];
+// let userData = [
+//   {
+//     name: "maheen",
+//     id: 1,
+//     age: 16,
+//   },
+//   {
+//     name: "hareem",
+//     id: 2,
+//     age: 22,
+//   },
+//   {
+//     name: "hiba",
+//     id: 3,
+//     age: 10,
+//   },
+//   {
+//     name: "hina",
+//     id: 4,
+//     age: 23,
+//   },
+// ];
 
-let userAge = userData.filter(a => a.age >=28)
-let userge = userData.find(a => a.age >=28)
-console.log(userAge);
-console.log(userge);
+// let userAge = userData.filter(a => a.age >=28)
+// let userge = userData.find(a => a.age >=28)
+// console.log(userAge);
+// console.log(userge);
 
 
